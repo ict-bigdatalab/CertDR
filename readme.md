@@ -12,5 +12,7 @@ If you find our work useful, please consider citing our paper:
   year={2022}
 }
 ```
+
+We thank [Mao Ye](https://lushleaf.github.io/) for his help with this work.
 # License
 This project is under Apache License 2.0.
