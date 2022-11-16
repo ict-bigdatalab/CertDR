@@ -12,7 +12,7 @@ If you find our work useful, please consider citing our paper:
   year={2022}
 }
 ```
-# A brief intro of how to use
+# How to run
 
 1. data process
  - generate randomized smoothed tables ->  data_process.py
