@@ -23,7 +23,7 @@ If you find our work useful, please consider citing our paper:
  - evaluate the model over these test docs -> test_process/evalate_fRS.py
 4. get the CRQ value -> evaluate/crq_evaluate.py
 
-# Thanks
+# Acknowledgements
 We thank [Mao Ye](https://lushleaf.github.io/) for his help with this work.
 # License
 This project is under Apache License 2.0.
