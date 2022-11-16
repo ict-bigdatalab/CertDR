@@ -12,15 +12,15 @@ If you find our work useful, please consider citing our paper:
   year={2022}
 }
 ```
-# A brief Process
+# A brief intro of how to use
 
 1. data process
-1) generate randomized smoothed tables ->  data_process.py
-2) generate perturbed training documents -> perturb_training_docs/generate_noised_docs.py -> perturb_training_docs/convert_perutrbed_train_text_to_tokenized.py -> perturb_training_docs/convert_collection_to_memmap.py
+ - generate randomized smoothed tables ->  data_process.py
+ - generate perturbed training documents -> perturb_training_docs/generate_noised_docs.py -> perturb_training_docs/convert_perutrbed_train_text_to_tokenized.py -> perturb_training_docs/convert_collection_to_memmap.py
 2. noisy_train the model  ->  noisy_train.py
 3. test process
-1) generate randomized smoothed test docs ->  test_process/get_randomized_testdataset.py
-2) evaluate the model over these test docs -> test_process/evalate_fRS.py
+ - generate randomized smoothed test docs ->  test_process/get_randomized_testdataset.py
+ - evaluate the model over these test docs -> test_process/evalate_fRS.py
 4. get the CRQ value -> evaluate/crq_evaluate.py
 
 We thank [Mao Ye](https://lushleaf.github.io/) for his help with this work.
